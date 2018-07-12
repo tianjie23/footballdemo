@@ -1,0 +1,23 @@
+export const menus = [
+    {key:'/index/index',title:'主页',icon:'home'},
+    {key:'/index/facilities',title:'设施',icon:'bar-chart'},
+    {
+        key:'/index/tactics',title:'战术',icon:'dot-chart',
+        sub:[
+            {key:'/index/tactics/user',title:'球员',icon:'user'},
+            {key:'/index/tactics/formation',title:'阵型',icon:'code-o'},
+            {key:'/index/tactics/index',title:'战术',icon:'dot-chart'},
+            {key:'/index/tactics/train',title:'训练',icon:'exception'},
+        ]
+    },
+    {
+        key:'/index/cantera',title:'青训',icon:'team',
+        sub:[
+            {key:'/index/cantera/echelon',title:'梯队',icon:'user'},
+            {key:'/index/cantera/youth',title:'青年队',icon:'team'},
+            {key:'/index/cantera/selection',title:'选拔队',icon:'man'},
+        ]
+    },
+    {key:'/index/setting',title:'设置',icon:'setting'},
+    {key:'/index/explain',title:'项目说明',icon:'question-circle-o'},
+];
